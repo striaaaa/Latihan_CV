@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Style for the gallery container */
+      .gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      /* Style for each card */
+      .card {
+        flex: 0 0 calc(33.33% - 20px);
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        background-color: white;
+      }
+
+      /* Style for the card image */
+      .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+
+      /* Style for the card text */
+      .card-text {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Gallery -->
+    <div class="gallery">
+      <!-- Card 1 -->
+      <div class="card">
+        <h2>Card 1</h2>
+        <img src="image1.jpg" alt="Image 1" />
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <h2>Card 2</h2>
+        <img src="image2.jpg" alt="Image 2" />
+        <p class="card-text">
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <h2>Card 3</h2>
+        <img src="image3.jpg" alt="Image 3" />
+        <p class="card-text">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
